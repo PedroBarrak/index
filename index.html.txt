@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor ❤️</title>
+    <style>
+        body {
+            font-family: "Apple Chancery", cursive;
+            background-color: #ffffff;
+            background-image: 
+                url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="%2300ff00" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6 3.5 4 5.5 4c1.54 0 3.04.99 3.57 2.36h1.87C13.46 4.99 14.96 4 16.5 4 18.5 4 20 6 20 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>');
+            background-repeat: no-repeat;
+            background-size: 5px 5px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #000000;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            max-width: 600px;
+            line-height: 1.6;
+            white-space: pre-wrap; 
+        }
+        .container {
+            background: #e6fff5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 700px;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #999;
+        }
+        .question {
+            margin-top: 30px;
+        }
+        .question button {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .question button:hover {
+            background-color: #ff4c4c;
+        }
+        #phone {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #007bff;
+        }
+    </style>
+    <script>
+        function showPhone() {
+            document.getElementById('phone').style.display = 'block';
+        }
+
+        function closeSite() {
+            alert("Que pena... 😢");
+            window.close(); 
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ana Luiza,</h1>
+        <p>
+            Sei que não fui o melhor namorado do mundo. <br>  Sei que não fui o melhor para você.<br>Aquele Pedro não te merecia.<br>
+            <strong>Você faz falta para mim.<br>
+            Todos os dias ainda penso em você.<br></strong>
+            Ainda penso e lembro de todos os planos futuros que fizemos.<br>
+            Ainda sei que é você e sempre será o amor da minha vida.<br>
+            Sei o quanto você significa para mim e entendi realmente o porque eu te amo tanto.<br>
+            Busquei a Deus, e sei que o meu caminho é você.<br>
+            Busquei ajuda e entendi ainda mais do porque você me fez tão bem.<br>
+            Na primeira semana de nosso término, eu fiquei desnorteado, ainda não tinha caído a ficha sobre tudo que aconteceu.<br>
+            <strong> Dia 08/11/2024, aquele Pedro grosso, machista, idiota morreu, aquele que colocava os problemas familiares no relacionamento, 
+            Aquele que em todo momento descontava a raiva e ansiedade em todos sem propósito e ajuda alguma,
+            Aquele que não valorizou a mulher maravilhosa que você é.<br></strong>
+
+            <strong>Dia 18/11/2024, eu renasci e busquei ajuda. Busquei ajuda e percebi que independente do que aconteça em minha volta, não me derrubará e não vai me atrapalhar se eu deixar entrar dentro de mim, e eu jamais vou repetir esse erro novamente. Quando deixei isso acontecer, o meu verdadeiro amor caiu e me fez um buraco enorme no peito, e esse amor é você.<br>
+            Deixe-me provar que mudei, 
+            Deixa eu mostrar para você que eu ainda te amo, e posso ser a pessoa dos seus sonhos.
+            Posso te provar que vai ser leve.
+            Posso te provar que sei onde eu errei e melhorei.
+            Você me faz bem, você é minha melhor versão.
+            Te perdi uma vez, não posso te perder novamente.</strong>
+
+            Vamos recomeçar do zero, vamos começar um ciclo e voltar mais fortes e se amando mais.<br>
+            Deixe eu te fazer realmente feliz e aproveitar cada minuto/tempo ao seu lado.<br>
+            Não quero perder mais tempo com brigas e discussões.<br>
+            E sim curtir e amar sua companhia, que é o que me completa no meu dia e me faz bem.<br> 
+        </p>
+        <div class="question">
+            <p><strong>Você aceita sair comigo e tentar recomeçar?</strong></p>
+            <button onclick="showPhone()">SIM</button>
+            <button onclick="closeSite()">NÃO</button>
+        </div>
+        <div id="phone" style="display: none;">
+            <p>Me liga, estou com muita saudade!.</p>
+        </div>
+    </div>
+    <footer>
+        Com amor e carinho, entrego meu coração a ti.
+    </footer>
+</body>
+</html>
